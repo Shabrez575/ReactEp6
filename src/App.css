@@ -1,0 +1,66 @@
+main {
+}
+.header{
+  display:flex;
+  justify-content:space-between;
+  border:1px solid black;
+}
+.logo{
+  width:100px;
+}
+
+.nav-items ul{
+  display:flex;
+}
+.nav-items ul li{
+  list-style:none;
+  padding:10px;
+  margin:5px;
+  font-size: 18px;
+}
+
+.Search-bar{
+  padding: 10px;
+}
+
+.res-Container{
+  display:flex;
+  flex-wrap:wrap;
+}
+.res-card {
+  width: 200px;
+  /* height:350px; */
+  border:1px solid black;
+  padding:5px;
+  margin:10px;
+  background-color: #adaca9;
+}
+.res-food{
+  height:50%;
+  width:100%;
+}
+
+.card-btm{
+  margin:30px;
+}
+
+.filter-btn{
+  margin:10px;
+  padding:5px;
+  background-color:#e19dc2;
+}
+
+/* Shimmer  */
+.shimmer-cards{
+  box-shadow: 0 7px 15px 0 rgba(0,0,0,0.2);
+  margin:10px;
+  width:200px;
+  height:400px;
+  background-color: #ebe6e6
+}
+
+/* Add some padding inside the card container */
+.shimmer-container{
+  display:flex;
+  flex-wrap:wrap;
+}
